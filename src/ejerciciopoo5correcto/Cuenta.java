@@ -16,6 +16,8 @@ public class Cuenta {Scanner leer = new Scanner(System.in);
     private long dni;
     private double saldoActual;
     private double interes;
+    
+    
     public Cuenta() {
     }
     public Cuenta(int numeroCuenta, long dni, double saldoActual, double interes) {
@@ -49,7 +51,7 @@ public class Cuenta {Scanner leer = new Scanner(System.in);
         this.interes = interes;
     }
     public void CrearCuenta() {
-        System.out.println("Ingrese número de cuenta, dni, saldo actual:");
+        System.out.println("Ingrese n ° de cuenta, dni, saldo actual:");
         numeroCuenta = leer.nextInt();
         dni = leer.nextLong();
         saldoActual = leer.nextInt();
