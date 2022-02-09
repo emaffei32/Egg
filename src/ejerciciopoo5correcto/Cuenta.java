@@ -55,7 +55,7 @@ public class Cuenta {Scanner leer = new Scanner(System.in);
         saldoActual = leer.nextInt();
     }
     public double Ingresar() {
-        System.out.println("** D E P O S I T O **");
+        System.out.println("** deposito**");
         System.out.println("Ingrese la cantidad a depositar:");
         double dep = leer.nextDouble();
         saldoActual += dep;
